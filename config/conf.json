@@ -1,0 +1,21 @@
+{
+  "baseUrl": "http://54.228.180.124:8080/search-api/v1/akif?",
+  "enableFacets": true,
+  "enablePaginationBottom": false,
+  "enablePaginationTop": true,
+  "facets": ["set","language"],
+  "limitPagination": 11,
+  "limit_facets": {  
+    "set":["oeintute",
+           "aglrgfsp"] },
+  "limit_facets_number": 4,
+  "mappings_file": "../config/facets_mappings.json",
+  "maxTextLength": 300,
+  "pageSize": 10,
+  "selectedLanguage": "en",
+  "snippetElements": [
+    "title",
+    "description",
+    "languageBlocks.en.keywords"
+  ]
+}
