@@ -133,7 +133,7 @@ listing.controller("mainController", function($rootScope, $scope, $http, $locati
 
 		}
 		else{
-			 alert('Ohhh come on! Don\'t be stupid!\nType something!!');
+			 alert('Ohhh come on! \nType something!!');
 		}
 
 	};
